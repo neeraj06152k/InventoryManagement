@@ -1,5 +1,7 @@
 package com.example.ecom.repositories;
 
-public interface UserRepository {
+import com.example.ecom.models.User;
+
+public abstract class UserRepository extends InMemRepository<User> {
 
 }
